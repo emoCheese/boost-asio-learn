@@ -1,0 +1,20 @@
+[
+{
+  "directory": "D:/Workspace(cpp)/BoostCode/echo/build",
+  "command": "D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/bin/g++.exe  @CMakeFiles/client.dir/includes_CXX.rsp -g -o CMakeFiles/client.dir/src/client.cpp.obj -c \"D:/Workspace(cpp)/BoostCode/echo/src/client.cpp\"",
+  "file": "D:/Workspace(cpp)/BoostCode/echo/src/client.cpp",
+  "output": "CMakeFiles/client.dir/src/client.cpp.obj"
+},
+{
+  "directory": "D:/Workspace(cpp)/BoostCode/echo/build",
+  "command": "D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/bin/g++.exe  @CMakeFiles/server.dir/includes_CXX.rsp -g -o CMakeFiles/server.dir/src/server.cpp.obj -c \"D:/Workspace(cpp)/BoostCode/echo/src/server.cpp\"",
+  "file": "D:/Workspace(cpp)/BoostCode/echo/src/server.cpp",
+  "output": "CMakeFiles/server.dir/src/server.cpp.obj"
+},
+{
+  "directory": "D:/Workspace(cpp)/BoostCode/echo/build",
+  "command": "D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/bin/g++.exe  @CMakeFiles/test.dir/includes_CXX.rsp -g -o CMakeFiles/test.dir/src/test.cpp.obj -c \"D:/Workspace(cpp)/BoostCode/echo/src/test.cpp\"",
+  "file": "D:/Workspace(cpp)/BoostCode/echo/src/test.cpp",
+  "output": "CMakeFiles/test.dir/src/test.cpp.obj"
+}
+]

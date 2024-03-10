@@ -1,0 +1,5 @@
+D:/Workspace(cpp)/BoostCode/echo/build/CMakeFiles/client.dir
+D:/Workspace(cpp)/BoostCode/echo/build/CMakeFiles/server.dir
+D:/Workspace(cpp)/BoostCode/echo/build/CMakeFiles/test.dir
+D:/Workspace(cpp)/BoostCode/echo/build/CMakeFiles/edit_cache.dir
+D:/Workspace(cpp)/BoostCode/echo/build/CMakeFiles/rebuild_cache.dir

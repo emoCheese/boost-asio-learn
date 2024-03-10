@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.22.1)
+
+project(ASIO_ECHO)
+
+include_directories( ${PROJECT_SOURCE_DIR}/include)
+
+link_libraries("D/develop/C++/boost_1_83_0")
+link_libraries("D/develop/C++/boost_1_83_0/stage/lib")
+
+set(CMAKE_CXX_STANDARD 17)
+
+set(SERVER_SRC src/server.cpp)
+set(CLIENT_SRC src/client.cpp)
+
+add_executable(client ${CLIENT_SRC})
+add_executable(server ${SERVER_SRC})
+add_executable(test src/test.cpp)

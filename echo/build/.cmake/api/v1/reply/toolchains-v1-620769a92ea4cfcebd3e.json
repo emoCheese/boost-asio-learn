@@ -1,0 +1,138 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/lib/gcc/x86_64-w64-mingw32/13.2.0/include",
+						"D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed",
+						"D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/lib/gcc/x86_64-w64-mingw32/13.2.0",
+						"D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/lib/gcc",
+						"D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/x86_64-w64-mingw32/lib",
+						"D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/bin/gcc.exe",
+				"version" : "13.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/include/c++/13.2.0",
+						"D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/include/c++/13.2.0/x86_64-w64-mingw32",
+						"D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/include/c++/13.2.0/backward",
+						"D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/lib/gcc/x86_64-w64-mingw32/13.2.0/include",
+						"D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed",
+						"D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/lib/gcc/x86_64-w64-mingw32/13.2.0",
+						"D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/lib/gcc",
+						"D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/x86_64-w64-mingw32/lib",
+						"D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/bin/g++.exe",
+				"version" : "13.2.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "D:/develop/gcc-v13.2.0-mingw-v11.0.0-x86_64/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
